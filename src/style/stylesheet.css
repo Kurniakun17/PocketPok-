@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0px;
+  font-family: sans-serif, cursive;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #2c3333;
+}
+
+.flex{
+  display: flex;
+}
+
+.navbar{
+  border-bottom: 1px solid #A5C9CA;
+  text-align: center;
+  position: relative;
+  padding: 30px 0px;
+  background-color: #2c3333;
+}
+
+.navbar h1{
+  color: white;
+}
+
+#form{
+  padding: 0;
+  margin: 0;
+}
+
+.content{
+  margin-top: 2em;
+  margin: 2em auto;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 70%;
+  overflow: hidden;
+  padding: 2em;
+  border: 1px solid white;
+}
+
+.content h2{
+  color: white;
+}
+
+.poke-input{
+  width: 78%;
+  height: 30px;
+  border: 3px solid white;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 10px 0px;
+  background-color: #A5C9CA;
+  color: rgb(57, 91, 100);
+  font-size: 15px;
+  font-weight: bold; 
+}
+
+.submit-button{
+  width: 20%;
+  height: 30px;
+  border-radius: 7px;
+  color: black;
+  font-weight: bold;
+  background-color: #A5C9CA ;
+  color: rgb(57, 91, 100);
+  border: 3px solid white;
+}
+
+.submit-button:hover{
+  background-color: rgb(57, 91, 100);
+  color: #A5C9CA;
+}
+
+.poke-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  color: black;
+  padding-bottom: 1em;
+  margin-top: 1.5em;
+}
+
+.poke-info h3{
+  font-size: 2em;
+}
+
+.poke-info h4{
+  margin: 10px 0px;
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+.poke-id{
+  width: min-content;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.poke-misc{
+  width: 80%;
+}
+
+.poke-miscHW{
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  margin: 10px auto;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+/* bar stats */
+.stats-bar-container{
+  flex-direction: column;
+  gap: 1em;
+}
+
+.bar-container{
+  position: relative;
+  height: 1em;
+  width: 100%;
+  background-color: black;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-stat{
+  position: absolute;
+  height: 1em;
+  background-color: white;
+}
+
+/* PokeType Color */
+
+.rock{
+  background-color: #282A3A;
+  color: rgb(182,158,49);
+}
+
+.ghost{
+  background-color: #282A3A;
+  color: rgb(112,85,155);
+}
+
+.steel{
+  background-color: #282A3A;
+  color: rgb(183,185,208);
+}
+
+.water{
+  background-color: #282A3A;
+  color: rgb(100,147,235);
+}
+
+.grass{
+  background-color: #282A3A;  
+  color: rgb(64,176,136);
+}
+
+.rock{
+  background-color: #282A3A;
+  color: rgb(182,158,49);
+}
+
+.psychic{
+  background-color: #282A3A;
+  color: rgb(251,82,132);
+}
+
+.ice{
+  background-color: #282A3A;
+  color: rgb(154,214,223);
+}
+
+.dark{
+  background-color: #282A3A;
+  color: rgb(117,87,56);
+}
+
+.fairy{
+  background-color: #282A3A;
+  color: rgb(230,158,172);
+}
+
+.normal{
+  background-color: #282A3A;
+  color: rgb(170,166,127);
+}
+
+.fighting{
+  background-color: #282A3A;
+  color: rgb(193,34,57);
+}
+
+.flying{
+  background-color: #282A3A;
+  color: rgb(168,145,236);
+}
+
+.ground{
+  background-color: #282A3A;
+  color: rgb(222,193,107);
+}
+
+.fire{
+  background-color: #282A3A;
+  color: rgb(245,125,49);
+}
+
+.electric{
+  background-color: #282A3A;
+  color: rgb(242, 205, 56);
+}
+
+.dragon{
+  background-color: #282A3A;
+  color: rgb(112,55,255)
+}
